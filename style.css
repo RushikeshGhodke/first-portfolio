@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: Arsenica;
+    src: url(assets/fonts/arsenica.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: ttcommonsregular;
+    src: url(assets/fonts/tt-commons-regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.name {
+    color: black;
+    font-family: 'Arsenica', sans-serif;
+    font-size: 8vh;
+    padding-top: 15vh;
+    position: relative;
+    z-index: 1;
+}
+
+#profile-photo {
+    position: relative;
+    transform: rotate(-5deg);
+    width: 50vh;
+    top: -30px;
+}
+
+#portfolio-heading {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 100;
+    font-size: 18vh;
+    position: relative;
+    top: -11vh;
+}
+
+#work-title {
+    position: relative;
+    font-family: ttcommonsregular;
+    font-size: 3vh;
+    top: -5vh;
+}
+
+.page2 {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+#about-me {
+    font-family: 'Arimo', sans-serif;
+    font-size: 10.5vh;
+    padding-top: 8vh;
+    line-height: 1;
+    display: inline-block;
+}
+
+#about-2-img img {
+    width: 28vh;
+    padding-top: 20vh;
+    transform: rotate(-5deg);
+    float: left;
+}
+
+#about-me-para {
+    padding-top: 30vh;
+    padding-left: 40vh;
+    width: 46vh;
+    font-family: ttcommonsregular;
+    font-size: 3.5vh;
+    font-weight: 100;
+}
+
+#about-me-img img {
+    position: relative;
+    top: -80vh;
+    padding-right: 15vh;
+    float: right;
+    width: 45vh;
+    padding-top: 15vh;
+    
+}
+
+.page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    box-sizing: border-box;
+}
+
+#work-ex-title {
+    font-family: 'Arimo', sans-serif;
+    font-size: 10.5vh;
+    padding-top: 8vh;
+    line-height: 1;
+    display: inline-block;
+    width: 10vh;
+    padding-bottom: 20vh;
+}
+
+#work-ex-img  {
+    display: inline-block;
+    position: relative;
+    top: 60vh;
+    left: 115vh;
+}
+
+#work-ex-img img {
+    width: 40vh;
+}
+
+.exp {
+    display: grid;
+    grid-template-columns: auto auto;
+} 
+
+.work-title {
+    font-family: 'Arsenica', sans-serif;
+    font-size: 4vh;
+    padding-bottom: 2vh;
+    font-weight: 100;
+    width: 30vh;
+}
+
+.workinfo {
+    text-transform: uppercase;
+    font-family: ttcommonsregular;
+    font-size: 3vh;   
+    font-weight: 100; 
+    width: 50vh;
+}
+
+.page4 {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    box-sizing: border-box;
+    padding-top: 30vh;
+}
+
+.skill-sec-title {
+    font-family: 'Arimo', sans-serif;
+    font-size: 10.5vh;
+    line-height: 1;
+    width: 50vh;
+    position: relative;
+    top: 3vh;
+    z-index: 1;
+}
+
+.skills {
+    position: absolute;
+    left: 55vw;
+}
+
+.skill-title {
+    font-family: 'Arsenica', sans-serif;
+    font-size: 4vh;
+    padding-bottom: 2vh;
+    font-weight: 100;
+    width: 35vh;
+}
+
+.skill-item {
+    font-family: ttcommonsregular;
+    font-size: 3vh;   
+    font-weight: 100; 
+    width: 50vh;
+}
+
+#skill-img img {
+    width: 35vw;
+    position: absolute;
+}
+
+.page5 {
+    height: 110vh;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 7vh 7.5vw;
+}
+
+.page5-img{
+    display: grid;
+    grid-template-columns: 13vw 13vw 13vw 13vw 13vw;
+    gap: 2vw;
+}
+
+.page5 img {
+    width: 13vw;
+    height: 90vh;
+    display: inline-block;
+}
+
+.project-sec-title {
+    font-family: 'Arimo', sans-serif;
+    font-size: 10.5vh;
+    line-height: 1;
+    width: 50vh;
+    text-align: end;
+}
+
+.page6 {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    font-size: 10vh;
+    text-align: center;
+    padding-top: 25vh;
+    box-sizing: border-box;
+}
+
+.div1 p {
+    font-size: 18vh;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1;
+}
+
+.div2 p {
+    font-size: 18vh;
+    font-family: Arsenica, sans-serif;
+    display: inline;
+    line-height: 1;
+    font-style: italic;
+}
+
+.div3 p {
+    font-size: 18vh;
+    font-family: 'Arimo', sans-serif;   
+    display: inline;
+    line-height: 1;
+}
+
+#img1 {
+    width: 23vh;
+}
+
+#img2 {
+    width: 33vh;
+}
+
+.page7 {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 8vh 7.5vw;
+    position: absolute;
+
+}
+
+#name {
+    font-family: Arsenica, sans-serif;
+    font-size: 1.7vw;
+}
+
+#wwm p {
+    text-transform: uppercase;
+    width: 25vw;
+    font-family: Arimo, sans-serif;
+    font-size: 5vw;
+    line-height: 1;
+    padding-top: 3vh;
+    padding-bottom: 25vh;
+}
+
+#end-info {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 2vw;
+    font-size: 4vh;
+}
+
+#end-img {
+    width: 25vw;
+    float: right;
+    position: relative;
+    top: -70vh;
+    right: 11vw;
+}    
